@@ -1,0 +1,145 @@
+/* Create four equal columns that floats next to each other */
+
+.column {
+    text-align: center;
+    float: left;
+    width: 23%;
+    height:250px;
+    background-color: grey;
+    color: white;
+    margin: 1%
+      
+  }
+  .column-big {
+    float: left;
+    width: 48%;
+    height:250px;
+    background-color: grey;
+    color: white;
+    margin: 1%;
+    text-align: center;
+  }
+  .column-big-small {
+    text-align: center;
+    float: left;
+    width: 23%;
+    height:250px;
+    background-color: grey;
+    color: white;
+    margin: 1%
+      
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 31.3%;
+      background-color: grey;
+      text-align: center;
+    }
+    .column-big {
+    float: left;
+    width: 48%;
+    /* Create four equal columns that floats next to each other */
+
+.column {
+    text-align: center;
+    float: left;
+    width: 23%;
+    background-color: grey;
+    color: white;
+    margin: 1%
+      
+  }
+  .column-big {
+    float: left;
+    width: 48%;
+    height:250px;
+    background-color: grey;
+    color: white;
+    margin: 1%;
+    text-align: center;
+  }
+  .column-big-small {
+    text-align: center;
+    float: left;
+    width: 23%;
+    height:250px;
+    background-color: grey;
+    color: white;
+    margin: 1%
+      
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 31.3%;
+      background-color: grey;
+      text-align: center;
+    }
+    .column-big {
+    float: left;
+    width: 48%;
+    background-color: grey;
+    color: white;
+    margin: 1%;
+    text-align: center;
+  }
+    .column-big-small {
+    text-align: center;
+    float: left;
+    width: 48%;
+    background-color: grey;
+    color: white;
+    margin: 1%
+    }
+  
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 48%;
+      background-color: grey;
+    }
+    .column-big {
+    float: left;
+    width: 98%;
+    background-color: grey;
+    color: white;
+    margin: 1%;
+    height:100px;
+  }
+  }
+    background-color: grey;
+    color: white;
+    margin: 1%;
+    text-align: center;
+  }
+    .column-big-small {
+    text-align: center;
+    float: left;
+    width: 48%;
+    background-color: grey;
+    color: white;
+    margin: 1%
+    }
+  
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 48%;
+      background-color: grey;
+    }
+    .column-big {
+    float: left;
+    width: 98%;
+    background-color: grey;
+    color: white;
+    margin: 1%;
+    
+  }
+  }
